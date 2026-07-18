@@ -1,3 +1,6 @@
+# calcul.py - Version finale avec documentation complète
+# Issue #1 : Documentation à compléter - RÉSOLUE
+
 # calcul.py - Version fusionnée
 def addition(a, b):
     return a + b
