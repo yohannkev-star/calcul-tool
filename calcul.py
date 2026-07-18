@@ -5,8 +5,11 @@ def addition(a, b):
 def soustraction(a, b):
     return a - b
 
+# Fonction principale - VERSION MAIN
+def main():
+    print("=== Calculatrice v1.0 (Main) ===")
+    print(f"5 + 3 = {addition(5, 3)}")
+    print(f"5 - 3 = {soustraction(5, 3)}")
+
 if __name__ == "__main__":
-    result_add = addition(5, 3)
-    result_sub = soustraction(5, 3)
-    print(f"Addition : {result_add}")
-    print(f"Soustraction : {result_sub}")
+    main()
